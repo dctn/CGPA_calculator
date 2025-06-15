@@ -34,13 +34,6 @@ h1,h2,h3,h5,h6{
     color: var(--hightlight_text);
 }
 
-.title{
-    /*text-align: center;*/
-    text-transform: capitalize;
-    border: 2px solid var(--third_color);
-    padding: 1.5rem;
-    border-radius: 1rem;
-}
 
 
 
@@ -53,7 +46,7 @@ h1,h2,h3,h5,h6{
     /*background: red;*/
     margin: 0 auto;
     margin-top: 2rem;
-
+    /*margin-bottom: 30rem;*/
 }
 
 #strik{
@@ -72,6 +65,16 @@ h1,h2,h3,h5,h6{
     background-color: var(--hightlight_text);
     z-index: 1;
 }
+
+.title{
+    /*text-align: center;*/
+    text-transform: capitalize;
+    border: 2px solid var(--third_color);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin: 0 1rem;
+}
+
 
 .btns{
     align-self: center;
